@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.image {
+  width: 500px;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #ffffff;
+  box-shadow: 2px 2px 4px #000, -2px -2px 4px #fff;
+
+  margin: 10px;
+  width: 550px;
+  padding: 20px;
+}
+.user {
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+.user-input {
+  padding: 10px;
+  background-color: #e6f6ff;
+  outline: none;
+  border-width: 0px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 10px;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+.label-container {
+  display: flex;
+  flex-direction: column;
+}
+.logoimage {
+  width: 350px;
+}

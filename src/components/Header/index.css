@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.logoimage1 {
+  width: 75px;
+}
+.nav-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.link {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 10px;
+  text-decoration: none;
+}
